@@ -1,0 +1,134 @@
+.irot {
+	--green-color: #0a770a;
+	--blac-color: #000000;
+	--tex-color: #333333;
+	--white-color: #ffffff;
+	--light-bg: #f8f8f8;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Medium.woff2') format('woff2'), url('../fonts/Roboto-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+*:focus {
+	outline: 2px dotted #ff7500 var(--gold-bg);
+	outline-offset: 3px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	font-family: 'ROBOTO', sans-serif;
+	font-weight: 400;
+	color: var(--tex-color);
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.contaniner {
+	max-width: 1380px;
+	width: 1005px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-content {
+	flex-grow: 1;
+}
+
+.site-header-wraper {
+	padding-top: 40px;
+	background-color: var(--gold-bg);
+}
+
+.site-header {
+	margin-bottom: 40px;
+}
+
+.site-header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-logo {
+	width: 235px;
+	height: 24px;
+	display: inline-block;
+	transform: opacity 0.4 ease;
+}
+
+.site-logo-hover {
+	opacity: 0.8;
+}
+
+.site-logo:active {
+	opacity: 0.6;
+}
+
+.site-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.site-nav__item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.site-nav__link {
+	text-transform: uppercase;
+	color: var(--tex-color);
+	text-decoration: none;
+	transition: all 0.4 ease;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.site-nav__link:hover {
+	color: var(--green-color);
+}
+
+.site-nav__link:active {
+	opacity: 0.6;
+}
