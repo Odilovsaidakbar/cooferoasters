@@ -492,3 +492,89 @@ a {
 .social__link svg:hover {
 	color: var(--green-bg);
 }
+
+.our-commitment {
+	margin-bottom: 160px;
+}
+
+.our-commitment__inner {
+	position: relative;
+	padding: 160px 64px 200px 156px;
+	background-image: url(../img/our-community.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.our-commitment__img {
+	left: 0;
+	top: calc(50% - 150px);
+}
+
+.our-commitment__img-wraper {
+	margin-right: 185px;
+}
+.our-commitment__info {
+	max-width: 626px;
+	width: 100%;
+}
+
+.our-commitment__title {
+	margin-bottom: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: var(--black-color);
+}
+
+/* our-commitment */
+.our-commitment__ {
+	margin-bottom: 160px;
+}
+
+/* Uncompromising-quality */
+.uncompromising-quality {
+	mb: 20;
+}
+.uncompromising-quality__inner {
+	position: relative;
+	background-image: url(../img/Group\ 3616.1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: var(--white-color);
+	padding: 100px 30px 118px 143px;
+}
+
+.uncompromising-quality_info {
+	max-width: 500px;
+	width: 100%;
+	margin-right: 38px;
+}
+
+.uncompromising-quality__title {
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.2;
+	max-width: 397px;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.uncompromising-qityual__text {
+	line-height: 1.7;
+}
+
+.uncompromising-qityual__img {
+	position: absolute;
+	width: 550px;
+	height: 500px;
+	object-fit: cover;
+	right: 30px;
+	top: -90px;
+}
